@@ -1,0 +1,165 @@
+We're going to take a nice, easy walk through the wonderful garden of **data structures**, based on this classic book by some smart folks named Aho, Hopcroft, and Ullman. Imagine we’re baking, organizing your photo albums, lining up your teacups, and sorting your grocery list — but inside a computer. Ready? Let’s go! 🧵🪡🧺
+
+---
+
+## 🍞 1. What Are Data Structures?
+
+Data structures are like **containers** — they help us **store, organize, and find** things easily inside a computer. Just like you keep:
+
+* Sugar in a jar 🍯
+* Photos in an album 📖
+* Buttons in a sewing box 🧵
+
+...we use data structures to store data like numbers, names, or anything else!
+
+---
+
+## 🧺 2. The Basic Containers (Chapter 2: Basic Data Types)
+
+These are like your everyday baskets and shelves.
+
+### 🪜 a. **List**
+
+Like a shopping list 📝:
+
+* You write things in order.
+* You can add, remove, or check items.
+
+Types:
+
+* **Array list**: Like a fixed-length paper — once it’s full, you can’t add more.
+* **Linked list**: Like a necklace made of beads — you can remove or add beads anywhere!
+
+### 📚 b. **Stack**
+
+Like a stack of plates 🍽️:
+
+* Last in, first out (LIFO) — top plate goes first.
+* Used when you “undo” something in a computer.
+
+### 🧵 c. **Queue**
+
+Like a line at the bakery 🥐:
+
+* First come, first served (FIFO).
+* Used in printers or traffic lights.
+
+---
+
+## 🌳 3. Trees (Chapter 3)
+
+Now imagine a **family tree** 👵👨👶.
+
+* **Tree** is a structure where things branch out.
+* One top member (root), and others below (children).
+* Used for organizing data like menus or files.
+
+### 🍎 Special Trees:
+
+* **Binary Tree**: Each parent has at most 2 kids.
+* **Binary Search Tree (BST)**: Everything left is smaller, everything right is bigger — makes searching fast!
+* **Heap**: Always keeps the smallest (or biggest) number at the top.
+* **2-3 Tree, Trie**: Fancy trees used in spell checkers or databases.
+
+---
+
+## 🧩 4. Sets & Maps (Chapters 4 & 5)
+
+Just like you organize buttons by size or color.
+
+### 🧷 a. **Set**
+
+* A group of unique items (no duplicates).
+* Like your special teacup collection ☕.
+
+Operations:
+
+* Union (combine)
+* Intersection (what’s common)
+* Difference (what’s missing)
+
+### 🗃️ b. **Map / Dictionary**
+
+* Like your recipe book: each dish has a name (key) and recipe (value).
+* Used to look up information quickly.
+
+---
+
+## 🌉 5. Graphs (Chapters 6 & 7)
+
+Now let’s go on a **trip!**
+
+Graphs show **connections** like maps or train stations 🚉.
+
+* **Vertices (dots)**: Stations or people
+* **Edges (lines)**: Paths between them
+
+Types:
+
+* **Directed**: One-way streets
+* **Undirected**: Two-way streets
+
+Used for: Google Maps, social media, puzzles, etc.
+
+---
+
+## 🍰 6. Sorting (Chapter 8)
+
+Let’s tidy up! Like sorting your cookie tins by size 🍪.
+
+* **Insertion Sort**: Like inserting recipe cards in order.
+* **Quicksort**: Picks a middle item, splits others around it.
+* **Heapsort**: Uses heap tree — always pulls the smallest.
+* **Binsort**: Buckets for different groups.
+
+Sorting helps us find things faster.
+
+---
+
+## 🧮 7. Efficiency (Chapters 9 & 10)
+
+Some methods are **fast** like your sewing machine 🧵, others slow like hand stitching.
+
+We measure how long something takes using:
+
+* **Big-O notation** (just a fancy way of saying “how slow it gets with more work”)
+
+Techniques:
+
+* **Divide and conquer**: Split a problem into smaller ones (like cutting pie slices).
+* **Dynamic programming**: Remember past answers (like writing down prices so you don’t ask again).
+* **Greedy algorithms**: Always pick the best choice now (like eating all the chocolate first 😄).
+
+---
+
+## 🗄️ 8. Advanced Storage (Chapter 11)
+
+When things don’t fit in memory (too many yarn balls!), we store them on shelves or disks.
+
+* **B-trees**: Used in databases to keep things neat and searchable on disk.
+
+---
+
+## 🧠 9. Memory Management (Chapter 12)
+
+Computers need to **clean up** after themselves:
+
+* Like knowing which balls of yarn you’re done with and putting them away.
+* **Garbage collection**: Removes unused data.
+* **Fixed vs. variable blocks**: Different box sizes for storing things.
+
+---
+
+## 🎀 Final Thoughts
+
+So Grandma, data structures are just like organizing your home:
+
+* Shelves = Arrays
+* Boxes = Lists
+* Recipe book = Maps
+* Drawers = Queues and Stacks
+* Family tree = Trees
+* Train routes = Graphs
+
+Every structure helps the computer find, add, remove, or organize data quickly and neatly.
+
